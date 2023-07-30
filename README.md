@@ -1,4 +1,5 @@
 # weather-project-vue-tailwind
+The Local Weather allows you to track the current and future weather of cities of your choosing.
 
 ## Live Site URL
 https://coruscating-seahorse-587175.netlify.app/
