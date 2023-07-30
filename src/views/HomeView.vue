@@ -12,10 +12,12 @@
           No results match your query, try a different term.
         </p>
         <template v-else>
+          <div class="li-parent">
           <li v-for="searchResult in mapboxSearchResults" :key="searchResult.id" class="py-2 cursor-pointer"
             @click="previewCity(searchResult)">
             {{ searchResult.place_name }}
           </li>
+          </div>
         </template>
       </ul>
     </div>
@@ -68,4 +70,3 @@ const getSearchResults = () => {
 };
 </script>
 
-<style lang="scss" scoped></style>
